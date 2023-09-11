@@ -3,4 +3,11 @@
   height: 45vh;
   object-fit: cover;
   margin-top: 80px;
+  overflow: hidden;
+}
+.image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

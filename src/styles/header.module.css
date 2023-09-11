@@ -67,6 +67,7 @@
   font-weight: 400;
   margin-right: 1.75rem;
   color: black;
+  cursor: pointer;
 }
 .language-options {
   position: absolute;

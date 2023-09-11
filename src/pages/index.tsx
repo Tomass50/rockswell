@@ -1,164 +1,56 @@
 import Image from "next/image";
-import Medal from "../assets/Medal.svg";
-import Forklift from "../assets/Forklift.svg";
-import Earth from "../assets/Earth.svg";
-import CheckBlack from "../assets/CheckBlack.svg";
 import CargoShip from "../assets/CargoShip.svg";
 import Cargo from "../assets/Cargo.svg";
-import stylesBg from "@/styles/bg.module.css";
 import stylesAbout from "@/styles/about.module.css";
 import stylesOper from "@/styles/operations.module.css";
 import stylesNews from "@/styles/news.module.css";
 import stylesBtn from "@/styles/headerBtn.module.css";
-import Bg from "../assets/Main screen.jpg";
 import Container from "@/components/Container";
+import MainImage from "@/components/MainImage";
+import AboutSection from "@/components/AboutSection";
+import Title from "@/components/Title";
 
 export default function Home() {
   return (
     <main style={{ width: "100%" }}>
-      <Image
-        className={stylesBg["bg-image"]}
-        alt="bg-image"
-        objectFit="cover"
-        width={10000}
-        height={10000}
-        src={Bg}
-      />
+      <MainImage />
       <Container>
         <div className={stylesAbout["main-container"]}>
-          <div className={stylesAbout["header-container"]}>
-            <h1 className={stylesAbout["header-text"]}>about company</h1>
-          </div>
-          <div className={stylesAbout["about-container"]}>
-            <div className={stylesAbout["first-section"]}>
-              <div className={stylesAbout["container"]}>
-                <div className={stylesAbout["icon-text-container"]}>
-                  <div className={stylesAbout["icon"]}>
-                    <Image className="" src={Medal} alt=""></Image>
-                  </div>
-                  <div className={stylesAbout["icon-text"]}>
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div>
-                </div>
-                <div className={stylesAbout["text-container"]}>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                </div>
-              </div>
-              <div className={stylesAbout["container"]}>
-                <div className={stylesAbout["icon-text-container"]}>
-                  <div className={stylesAbout["icon"]}>
-                    <Image className="" src={Forklift} alt=""></Image>
-                  </div>
-                  <div className={stylesAbout["icon-text"]}>
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div>
-                </div>
-                <div className={stylesAbout["text-container"]}>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul className={stylesAbout["text"]}>
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br /> lorem tristique aliquam ut quam.
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className={stylesAbout["second-section"]}>
-              <div className={stylesAbout["container"]}>
-                <div className={stylesAbout["icon-text-container"]}>
-                  <div className={stylesAbout["icon"]}>
-                    <Image className="" src={Earth} alt=""></Image>
-                  </div>
-                  <div className={stylesAbout["icon-text"]}>
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div>
-                </div>
-                <div className={stylesAbout["text-container"]}>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                </div>
-              </div>
-              <div className={stylesAbout["container"]}>
-                <div className={stylesAbout["icon-text-container"]}>
-                  <div className={stylesAbout["icon"]}>
-                    <Image className="" src={CheckBlack} alt=""></Image>
-                  </div>
-                  <div className={stylesAbout["icon-text"]}>
-                    Lorem ipsum dolor sit amet consectetur.
-                  </div>
-                </div>
-                <div className={stylesAbout["text-container"]}>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                  <ul
-                    className={`${stylesAbout["text-check"]} ${stylesAbout["text"]}`}
-                  >
-                    Lorem ipsum dolor sit amet consectetur. Lorem nullam libero{" "}
-                    <br />
-                    lorem tristique aliquam ut quam.
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <AboutSection />
         </div>
         <div className={stylesOper["main-container"]}>
           <div className={stylesOper["header-text-container"]}>
-            <h2 className={stylesOper["header"]}>company operations</h2>
+            <Title className={stylesOper["header"]}>Company operations</Title>
             <p className={stylesOper["text-header"]}>
-              Lorem ipsum dolor sit amet consectetur. Consequat mattis id magna
-              sit auctor elementum et. Aliquet purus pellentesque neque in.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At atque
+              dolore dolores, doloribus ducimus error exercitationem fugiat
+              fugit laboriosam laborum nam necessitatibus repudiandae rerum
+              soluta sunt suscipit totam ut velit voluptas voluptatem!
+              Architecto fuga harum incidunt iure minima nam necessitatibus,
+              nesciunt perferendis, placeat, porro quam quo recusandae
+              similique. Cumque dolorem doloremque dolorum et fugiat modi
+              molestias mollitia natus necessitatibus nulla quidem reprehenderit
+              rerum, sit unde velit? Commodi consequuntur corporis cum cumque
+              distinctio eaque eius et eum, exercitationem fugit illum incidunt
+              laborum libero minus molestias nobis obcaecati officiis provident
+              recusandae, reiciendis rem saepe sit voluptas voluptate
+              voluptates? Architecto doloremque ex illum nihil numquam officia
+              reiciendis repellat soluta temporibus voluptatibus. Aliquam atque
+              consequatur deleniti eaque exercitationem fugiat, impedit ipsum
+              iste iusto libero maiores nihil, officia placeat praesentium
+              quibusdam quidem suscipit tempora totam voluptatem voluptates?
+              Corporis fugiat incidunt labore quis similique suscipit totam!
+              Amet blanditiis doloremque error esse laborum quasi ratione
+              temporibus vel, voluptates. Autem cupiditate deserunt eum harum
+              ipsa, nostrum quia saepe tenetur. Blanditiis cumque cupiditate
+              expedita explicabo inventore iste libero possimus saepe sed
+              voluptatibus. Beatae cupiditate eaque explicabo, libero magnam
+              quas quibusdam voluptatum? Delectus deleniti itaque laborum
+              nesciunt numquam placeat? Aspernatur dolorem fugiat fugit incidunt
+              nam nobis porro soluta vero voluptatibus?
             </p>
           </div>
-          <div className={stylesOper["screen"]}></div>
+          <div className={stylesOper["screen"]} />
           <div className={stylesOper["operations-container"]}>
             <div className={stylesOper["operations"]}>
               <div className={stylesOper["icon-text-container"]}>
@@ -167,16 +59,25 @@ export default function Home() {
               </div>
               <ul className={stylesOper["text-list"]}>
                 <li className={stylesOper["text"]}>
-                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
-                  sit vitae nulla turpis molestie a.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad
+                  aperiam assumenda consequatur culpa deserunt dolor dolores
+                  expedita harum impedit labore maxime necessitatibus
+                  perspiciatis qui, quibusdam, repellendus sit veniam veritatis
+                  vitae!
                 </li>
                 <li className={stylesOper["text"]}>
-                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
-                  sit vitae nulla turpis molestie a.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias doloremque, eligendi exercitationem impedit incidunt
+                  minima numquam placeat provident reprehenderit sequi. Alias
+                  architecto assumenda eligendi laudantium minus nesciunt
+                  officia, quas quisquam!
                 </li>
                 <li className={stylesOper["text"]}>
-                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
-                  sit vitae nulla turpis molestie a.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias doloremque, eligendi exercitationem impedit incidunt
+                  minima numquam placeat provident reprehenderit sequi. Alias
+                  architecto assumenda eligendi laudantium minus nesciunt
+                  officia, quas quisquam!
                 </li>
               </ul>
             </div>
@@ -189,17 +90,18 @@ export default function Home() {
               </div>
               <ul className={stylesOper["text-list"]}>
                 <li className={stylesOper["text"]}>
-                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
-                  sit vitae nulla turpis molestie a.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias doloremque, eligendi exercitationem impedit incidunt
+                  minima numquam placeat provident reprehenderit sequi. Alias
+                  architecto assumenda eligendi laudantium minus nesciunt
+                  officia, quas quisquam!
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <div className={stylesNews["main-container"]}>
-          <div className={stylesNews["header-container"]}>
-            <h2 className={stylesNews["header-text"]}>news</h2>
-          </div>
+          <h2 className={stylesNews["header-text"]}>news</h2>
           <div className={stylesNews["block-news"]}>
             <div className={stylesNews["news-container"]}>
               <div className={stylesNews["news-screen"]}></div>
