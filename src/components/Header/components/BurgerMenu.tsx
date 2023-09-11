@@ -1,7 +1,7 @@
 import styles from "../../../styles/header.module.css";
-import FlagUK from "../components/Flag1";
-import ArrDown from "../components/down";
-import LogIn from "../components/button";
+import FlagUK from "../../../assets/header/FlagEng";
+import ArrDown from "./ArrowDown";
+import LogIn from "../../Button";
 
 type Props = {
   toggleMenu: () => void;

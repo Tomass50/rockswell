@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import styleFooter from "@/styles/footer.module.css";
-import Facebook from "./components/Facebook";
-import LinkedIn from "./components/LinkedIn";
+import React from "react";
+import styleFooter from "../../styles/footer.module.css";
 
 export const Footer = () => {
   return (
