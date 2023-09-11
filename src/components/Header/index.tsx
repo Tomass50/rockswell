@@ -6,7 +6,6 @@ import HeaderMobile from "@/components/Header/components/layouts/HeaderMobile";
 import Logo from "@/components/Header/components/Logo";
 
 export const Header = () => {
-  console.log(1);
   return (
     <header className={stylesHeader["header-container"]}>
       <Container>
