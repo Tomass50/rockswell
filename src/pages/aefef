@@ -1,0 +1,245 @@
+          {<div className={stylesOper["operations-container"]}>
+            <div className={stylesOper["operations"]}>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={CargoShip} alt=""></Image>
+                <p className={stylesOper["icon-text"]}>Stevedoring services:</p>
+              </div>
+              <ul className={stylesOper["text-list"]}>
+                <li className={stylesOper["text"]}>
+                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
+                  sit vitae nulla turpis molestie a.
+                </li>
+                <li className={stylesOper["text"]}>
+                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
+                  sit vitae nulla turpis molestie a.
+                </li>
+                <li className={stylesOper["text"]}>
+                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
+                  sit vitae nulla turpis molestie a.
+                </li>
+              </ul>
+            </div>
+            <div className={stylesOper["line"]}></div>
+            <div className={stylesOper["operations"]}>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={Cargo} alt=""></Image>
+                <p className={stylesOper["icon-text"]}>
+                  Handling of containers:
+                </p>
+              </div>
+              <ul className={stylesOper["text-list"]}>
+                <li className={stylesOper["text"]}>
+                  Lorem ipsum dolor sit amet consectetur. Gravida feugiat <br />{" "}
+                  sit vitae nulla turpis molestie a.
+                </li>
+              </ul>
+            </div>
+            <div className={stylesOper["line"]}></div>
+            <div className={stylesOper["other-operations"]}>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={Storage} alt=""></Image>
+                <p className={stylesOper["other-text"]}>Storage of cargo</p>
+              </div>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={MooringBollard} alt=""></Image>
+                <p className={stylesOper["other-text"]}>Mooring operations</p>
+              </div>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={People} alt=""></Image>
+                <p className={stylesOper["other-text"]}>
+                  Vessel agency service
+                </p>
+              </div>
+              <div className={stylesOper["icon-text-container"]}>
+                <Image className="" src={Delivery} alt=""></Image>
+                <p className={stylesOper["other-text"]}>
+                  Intraport freight forwarding
+                </p>
+              </div>
+            </div>
+</div>
+
+@media (max-width: 1200px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .header-container {
+    margin-left: 5rem;
+  }
+  .header-text {
+    font-size: 1.75rem;
+  }
+  .block-news {
+    margin-top: 1.5rem;
+  }
+  .news-container {
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .news-screen {
+    width: 100%;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.81rem;
+  }
+}
+@media (max-width: 1000px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .header-container {
+    margin-left: 2rem;
+  }
+  .header-text {
+    font-size: 1.75rem;
+  }
+  .block-news {
+    margin-top: 1.25rem;
+  }
+  .news-container {
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .news-screen {
+    width: 100%;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.81rem;
+  }
+}
+@media (max-width: 800px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .header-container {
+    margin-left: 1.75rem;
+  }
+  .header-text {
+    font-size: 1.5rem;
+  }
+  .block-news {
+    margin-top: 1rem;
+  }
+  .news-container {
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .news-screen {
+    width: 100%;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.81rem;
+  }
+}
+@media (max-width: 768px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .header-container {
+    margin-left: 2.5rem;
+  }
+  .header-text {
+    font-size: 2rem;
+  }
+  .block-news {
+    margin-top: 1rem;
+  }
+  .news-container {
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 5rem;
+    margin-left: 18rem;
+  }
+  .news-screen {
+    width: 100%;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.81rem;
+  }
+}
+@media (max-width: 415px) {
+  .main-container {
+    padding: 1rem;
+  }
+  .header-container {
+    margin-left: 1rem;
+  }
+  .header-text {
+    font-size: 1.25rem;
+  }
+  .block-news {
+    margin-top: 1rem;
+  }
+  .news-container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 6rem;
+    margin-left: 17rem;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 375px) {
+  .header-text {
+    font-size: 1.25rem;
+  }
+  .block-news {
+    margin-top: 1rem;
+  }
+  .news-container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0.5rem;
+  }
+  .news-text-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .btn-container {
+    margin-top: 6rem;
+    margin-left: 10rem;
+  }
+  .news-text {
+    letter-spacing: normal;
+    font-size: 0.65rem;
+  }
+}

@@ -1,0 +1,45 @@
+.btn-container {
+  width: 4.9375rem;
+  height: 1.625rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.3125rem;
+  background: #217aff;
+  font-family: Raleway-Regular;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+.btn-search-container {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.3rem;
+  display: flex;
+  justify-content: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 100%;
+  background: white;
+  font-family: Raleway-Regular;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+}
+.btn-container:active {
+  scale: 0.8;
+}
+.btn-search-container:active {
+  scale: 1;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.input-container {
+  width: 12.5rem;
+  height: 1.25rem;
+  border-radius: 0.625rem;
+  border: 0.5px solid #217aff;
+  background: rgba(225, 225, 225, 0.3);
+  backdrop-filter: blur(4px);
+  color: black;
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  font-family: Raleway-Regular;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-container::placeholder {
+  color: rgb(87, 87, 87, 0.7);
+  font-family: Raleway-Italic;
+  font-size: 0.625rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
