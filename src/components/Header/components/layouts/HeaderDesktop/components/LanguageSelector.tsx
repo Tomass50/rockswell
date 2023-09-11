@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import stylesHeader from "@/styles/header.module.css";
 import FlagEng from "@/assets/header/FlagEng";
-import ArrowDown from "@/components/Header/components/ArrowDown";
+import ArrowDown from "@/assets/ArrowDown";
 import { AnimatePresence, motion, useMotionValue } from "framer-motion";
 
 const OPTIONS = [

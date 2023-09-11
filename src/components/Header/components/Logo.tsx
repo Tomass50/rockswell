@@ -25,7 +25,9 @@ const Logo = () => {
     <motion.div
       animate={{
         height: scrolled ? "100%" : "150%",
-        y: scrolled ? "0%" : 48,
+        y: scrolled ? "0%" : 32,
+        x: scrolled ? -35 : 0,
+        padding: scrolled ? 6 : 0,
       }}
     >
       <Image
@@ -33,8 +35,8 @@ const Logo = () => {
         src={LogoImage}
         alt={"Logo"}
         quality={100}
-        width={1000}
-        height={1000}
+        width={10000}
+        height={10000}
       />
     </motion.div>
   );

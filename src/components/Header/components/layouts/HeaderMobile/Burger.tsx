@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import styles from "../../../styles/header.module.css";
+import styles from "../../../../../styles/header.module.css";
 
 type Props = {
   toggleMenu: () => void;
