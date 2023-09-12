@@ -35,6 +35,8 @@ const MainImage = () => {
             width={10000}
             height={10000}
             src={MAIN_BG[count ?? 0]}
+            blurDataURL={MAIN_BG[count ?? 0]}
+            placeholder="blur"
           />
         </motion.div>
       </AnimatePresence>
