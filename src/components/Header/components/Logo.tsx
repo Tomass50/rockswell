@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import stylesHeader from "@/styles/header.module.css";
-import LogoImage from "../../../assets/header/Logo.svg";
+import LogoImage from "../../../assets/header/3logo-removebg-preview.png";
+import LogoLabel from "../../../assets/header/logo-label.png";
+
 const Logo = () => {
   const [scrolled, setScrolled] = useState(false);
 
