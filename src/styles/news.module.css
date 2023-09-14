@@ -13,36 +13,48 @@
   text-transform: capitalize;
   text-align: center;
 }
-.block-news {
+.news-block {
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 2rem;
-  flex-wrap: wrap;
 }
 .news-container {
-  padding: 1.5rem;
-  border-radius: 0.625rem;
-  border: 1px solid rgba(223, 223, 223, 0.75);
-  background: #f4f4f4;
-  box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  max-width: 100%;
+  margin: auto auto;
+  padding: 20px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background: #f4f4f4;
+  border: 0.7px solid rgba(223, 223, 223, 0.75);
+  border-radius: 0.625rem;
+  overflow: hidden;
+  gap: 0.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
 }
-.news-screen {
-  height: 13.75rem;
-  border-radius: 0.9375rem;
-  background: url("../assets/NewsScreen.svg") no-repeat;
+.news-screen-container {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
-.news-data-container {
+.data-news-container {
   display: flex;
+  gap: 0.25rem;
 }
-.news-header-container {
-  margin-top: 0.5rem;
-  display: flex;
+.data-text {
+  color: #515151;
+  font-family: Raleway-Light;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 0.01875rem;
 }
-.header {
+.header-news {
   color: #000;
   font-family: Raleway-Bold;
   font-size: 1.25rem;
@@ -51,31 +63,30 @@
   line-height: normal;
   letter-spacing: 0.025rem;
 }
-.data-text {
-  color: #515151;
-  font-family: Raleway-Extra-Light;
-  font-size: 0.725rem;
-  font-style: normal;
-  font-weight: 200;
-  line-height: normal;
-  letter-spacing: 0.01875rem;
-  margin-right: 0.25rem;
-}
-.news-text-container {
-  margin-top: 0.75rem;
+.text-news-container {
   display: flex;
-  justify-content: center;
 }
-.news-text {
+.text-news {
   color: #000;
   font-family: Raleway-Regular;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-style: normal;
   font-weight: 300;
   line-height: 200%; /* 1.5rem */
-  letter-spacing: 0.0375rem;
+  letter-spacing: 0.02rem;
 }
 .btn-container {
   margin-top: 5rem;
-  margin-left: 18.5rem;
+  align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+  .news-block {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 426px) {
+  .news-container {
+    width: 100%;
+  }
 }

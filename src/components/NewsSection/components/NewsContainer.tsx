@@ -14,7 +14,7 @@ const NewsContainer = () => {
         <NewsData />
         <NewsHeader />
         <NewsText />
-        <NewsButton/>
+        <NewsButton />
       </div>
     </>
   );

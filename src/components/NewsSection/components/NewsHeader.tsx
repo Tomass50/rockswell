@@ -5,7 +5,7 @@ const NewsHeader = () => {
   return (
     <>
       <div className={stylesNews["news-header-container"]}>
-        <h2 className={stylesNews["header"]}>Test of the shiploader</h2>
+        <h2 className={stylesNews["header-news"]}>Test of the shiploader</h2>
       </div>
     </>
   );

@@ -9,6 +9,7 @@ import AboutSection from "@/components/AboutSection";
 import NewsSection from "@/components/NewsSection";
 import OperSection from "@/components/OperSection";
 import Title from "@/components/Title";
+import NewsContainer from "@/components/NewsSection/components/NewsContainer";
 
 export default function Home() {
   return (
@@ -19,7 +20,7 @@ export default function Home() {
           <AboutSection />
         </div>
         <div className={stylesOper["main-container"]}>
-          <OperSection/>
+          <OperSection />
         </div>
         <div className={stylesNews["main-container"]}>
           <NewsSection />

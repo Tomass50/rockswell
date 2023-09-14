@@ -7,7 +7,7 @@ const NewsSection = () => {
   return (
     <>
       <Title className={stylesNews["header-text"]}>News</Title>
-      <div className={stylesNews["block-news"]}>
+      <div className={stylesNews["news-block"]}>
         <NewsContainer />
         <NewsContainer />
         <NewsContainer />

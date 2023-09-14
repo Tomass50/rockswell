@@ -4,11 +4,12 @@ import stylesNews from "@/styles/news.module.css";
 const NewsText = () => {
   return (
     <>
-      <div className={stylesNews["news-text-container"]}>
-        <p className={stylesNews["news-text"]}>
-          Lorem ipsum dolor sit amet consectetur. Metus ac leo ut sit <br />{" "}
-          vulputate duis blandit. Quam sed ridiculus malesuada nulla <br />{" "}
-          volutpat massa.
+      <div className={stylesNews["text-news-container"]}>
+        <p className={stylesNews["text-news"]}>
+          Lorem ipsum dolor sit amet consectetur. Metus ac leo ut sit vulputate
+          duis blandit. Quam sed ridiculus malesuada nulla volutpat massa. Lorem
+          ipsum dolor sit amet consectetur. Metus ac leo ut sit vulputate duis
+          blandit. Quam sed ridiculus malesuada nulla volutpat massa.
         </p>
       </div>
     </>
