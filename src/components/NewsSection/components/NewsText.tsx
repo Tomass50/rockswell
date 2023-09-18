@@ -1,15 +1,12 @@
 import React from "react";
 import stylesNews from "@/styles/news.module.css";
 
-const NewsText = () => {
+const NewsText = ({ text }: any) => {
   return (
     <>
       <div className={stylesNews["text-news-container"]}>
         <p className={stylesNews["text-news"]}>
-          Lorem ipsum dolor sit amet consectetur. Metus ac leo ut sit vulputate
-          duis blandit. Quam sed ridiculus malesuada nulla volutpat massa. Lorem
-          ipsum dolor sit amet consectetur. Metus ac leo ut sit vulputate duis
-          blandit. Quam sed ridiculus malesuada nulla volutpat massa.
+          {text}
         </p>
       </div>
     </>

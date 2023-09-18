@@ -16,8 +16,9 @@ const AboutItem = () => {
       </div>
       <div className={stylesAbout["text-container"]}>
         <ul className={stylesAbout["text"]}>
-          Lorem ipsum dolor sit amet consectetur. Lorem nullam libero <br />{" "}
-          lorem tristique aliquam ut quam.
+          Lorem ipsum dolor sit amet consectetur. Lorem nullam libero lorem{" "}
+          <br />
+          tristique aliquam ut quam.
         </ul>
         <ul className={stylesAbout["text"]}>
           Lorem ipsum dolor sit amet consectetur. Lorem nullam libero <br />{" "}

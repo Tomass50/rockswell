@@ -10,6 +10,7 @@ import "@/styles/about.module.css";
 import "@/styles/operations.module.css";
 import "@/styles/news.module.css";
 import "@/styles/styles.module.css";
+import "@/styles/swiper.module.css"
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {

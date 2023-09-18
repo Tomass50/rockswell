@@ -9,7 +9,6 @@ import AboutSection from "@/components/AboutSection";
 import NewsSection from "@/components/NewsSection";
 import OperSection from "@/components/OperSection";
 import Title from "@/components/Title";
-import Slick from "@/components/Slick";
 
 export default function Home() {
   return (

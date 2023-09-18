@@ -1,0 +1,11 @@
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  font-size: 24px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.swiper-button-prev {
+  left: 20px; /* Измените отступ кнопки "предыдущий слайд" */
+}
