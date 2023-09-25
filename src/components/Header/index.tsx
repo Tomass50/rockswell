@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import stylesHeader from "@/styles/header.module.css";
 import HeaderDesktop from "@/components/Header/components/layouts/HeaderDesktop";
 import Container from "@/components/Container";

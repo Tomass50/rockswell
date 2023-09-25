@@ -1,6 +1,5 @@
 import React from "react";
 import stylesNews from "@/styles/news.module.css";
-import Src from "../../../assets/NewsScreen.svg";
 import Image from "next/image";
 
 const NewsScreen = ({ screenshot }: any) => {

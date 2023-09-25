@@ -2,7 +2,7 @@
   min-height: 10.5rem;
   background: #217aff;
   display: flex;
-  margin-top: 3.5rem;
+  /* margin-top: 3.5rem; */
   justify-content: center;
 }
 .logo-container {

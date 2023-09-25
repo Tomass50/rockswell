@@ -4,9 +4,15 @@ import styles from "../../../../../styles/header.module.css";
 const NavListMobile = () => {
   return (
     <ul className={styles["burger-menu-list"]}>
-      <li className={styles["burger-text"]}>Contacts</li>
-      <li className={styles["burger-text"]}>News</li>
-      <li className={styles["burger-text"]}>Our Terminals</li>
+      <li className={styles["burger-text"]}>
+        <a href="#about-section">About Us</a>
+      </li>
+      <li className={styles["burger-text"]}>
+        <a href="#news-section">News</a>
+      </li>
+      <li className={styles["burger-text"]}>
+        <a href="#oper-section">Operations</a>
+      </li>
     </ul>
   );
 };

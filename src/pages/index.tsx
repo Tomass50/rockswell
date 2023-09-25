@@ -15,13 +15,13 @@ export default function Home() {
     <main style={{ width: "100%" }}>
       <MainImage />
       <Container>
-        <div className={stylesAbout["main-container"]}>
+        <div id="about-section" className={stylesAbout["main-container"]}>
           <AboutSection />
         </div>
-        <div className={stylesOper["main-container"]}>
+        <div id="oper-section" className={stylesOper["main-container"]}>
           <OperSection />
         </div>
-        <div className={stylesNews["main-container"]}>
+        <div id="news-section" className={stylesNews["main-container"]}>
           <NewsSection />
         </div>
       </Container>

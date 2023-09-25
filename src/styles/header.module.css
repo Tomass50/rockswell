@@ -55,6 +55,7 @@
 }
 .burger-menu-list {
   margin-top: 4rem;
+  margin-left: 1.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
@@ -66,6 +67,7 @@
   line-height: normal;
   gap: 1rem;
   list-style: none;
+  color: #fff;
 }
 .menu-items {
   font-family: Raleway-Regular;
@@ -181,7 +183,7 @@
   top: 0;
   left: 100%;
   color: black;
-  background: white;
+  background: linear-gradient(180deg, #217aff, #87c9ff);
   padding: 10px;
   display: flex;
   flex-direction: column;

@@ -1,5 +1,4 @@
 import React from "react";
-
 import stylesHeader from "@/styles/header.module.css";
 import LogIn from "@/components/Button";
 import HeaderNavMenu from "@/components/Header/components/layouts/HeaderDesktop/components/HeaderNavMenu";
